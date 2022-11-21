@@ -1,0 +1,9 @@
+{
+    "hvm": {"git": "https://github.com/Kindelia/HVM"},
+    "kind2": {"git": "https://github.com/Kindelia/Kind2"},
+    "kindelia": {"git": "https://github.com/Kindelia/Kindelia/", "path": "kindelia", "branch": "dev"},
+    "kindelia_client": {"git": "https://github.com/Kindelia/Kindelia/", "path": "kindelia_client", "branch": "dev"},
+    "kindelia_server": {"git": "https://github.com/Kindelia/Kindelia/", "path": "kindelia_server", "branch": "dev"},
+    "kindelia_core": {"git": "https://github.com/Kindelia/Kindelia/", "path": "kindelia_core", "branch": "dev"},
+    "kindelia_ws": {"git": "https://github.com/Kindelia/Kindelia/", "path": "kindelia_ws", "branch": "dev"}
+}
