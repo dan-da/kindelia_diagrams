@@ -233,7 +233,7 @@
 <polygon fill="white" stroke="none" points="2234,-285.5 2234,-352.5 2866,-352.5 2866,-285.5 2234,-285.5"/>
 <polygon fill="none" stroke="black" points="2234,-285.5 2234,-352.5 2866,-352.5 2866,-285.5 2234,-285.5"/>
 <text text-anchor="start" x="2245" y="-330.3" font-family="Arial" font-size="14.00">&#45; env: Option&lt;&amp;&#39;static str&gt;</text>
-<text text-anchor="start" x="2245" y="-315.3" font-family="Arial" font-size="14.00">&#45; prop: Option&lt;&amp;&#39;static str&gt;</text>
+<text text-anchor="start" x="2245" y="-315.3" font-family="Arial" font-size="14.00">&#45; prop: Option&lt;String&gt;</text>
 <text text-anchor="start" x="2245" y="-300.3" font-family="Arial" font-size="14.00">&#45; default_value: F</text>
 <polygon fill="white" stroke="none" points="2234,-188.5 2234,-285.5 2866,-285.5 2866,-188.5 2234,-188.5"/>
 <polygon fill="none" stroke="black" points="2234,-188.5 2234,-285.5 2866,-285.5 2866,-188.5 2234,-188.5"/>
