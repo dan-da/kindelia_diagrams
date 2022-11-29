@@ -35,7 +35,7 @@
 <text text-anchor="start" x="20" y="-109.3" font-family="Arial" font-size="14.00">&#45; get_function(&amp;self, name: Name) &#45;&gt; ApiResult&lt;FuncInfo&gt;</text>
 <text text-anchor="start" x="20" y="-94.3" font-family="Arial" font-size="14.00">&#45; get_function_state(&amp;self, name: Name) &#45;&gt; ApiResult&lt;ast::Term&gt;</text>
 <text text-anchor="start" x="20" y="-79.3" font-family="Arial" font-size="14.00">&#45; get_constructor(&amp;self, name: Name) &#45;&gt; ApiResult&lt;CtrInfo&gt;</text>
-<text text-anchor="start" x="20" y="-64.3" font-family="Arial" font-size="14.00">&#45; run_code(&amp;self, code: Vec&lt;HexStatement&gt;) &#45;&gt; ApiResult&lt;Vec&lt;hvm::StatementInfo&gt;&gt;</text>
+<text text-anchor="start" x="20" y="-64.3" font-family="Arial" font-size="14.00">&#45; run_code(&amp;self, code: Vec&lt;HexStatement&gt;) &#45;&gt; ApiResult&lt;Vec&lt;runtime::StatementInfo&gt;&gt;</text>
 <text text-anchor="start" x="20" y="-49.3" font-family="Arial" font-size="14.00">&#45; publish_code(&amp;self, code: Vec&lt;HexStatement&gt;) &#45;&gt; ApiResult&lt;Vec&lt;Result&lt;(), PublishError&gt;&gt;&gt;</text>
 <text text-anchor="start" x="20" y="-34.3" font-family="Arial" font-size="14.00">&#45; get_peers(&amp;self, all: bool) &#45;&gt; ApiResult&lt;Vec&lt;node::Peer&lt;C::Address&gt;&gt;&gt;</text>
 <text text-anchor="start" x="20" y="-19.3" font-family="Arial" font-size="14.00">&#45; get_reg_info(&amp;self, name: &amp;str) &#45;&gt; ApiResult&lt;RegInfo&gt;</text>
