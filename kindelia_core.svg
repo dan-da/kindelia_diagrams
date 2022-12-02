@@ -565,7 +565,7 @@
 <text text-anchor="start" x="3691.65" y="-439.3" font-family="Arial" font-size="14.00">&#45; new(data_path: PathBuf, network_id: u32, initial_peers: Vec&lt;C::Address&gt;, comm: C, miner_comm: Option&lt;MinerCommunication&gt;, storage: S, #[cfg(feature = &quot;events&quot;)] event_emitter: &#160;&#160;&#160;Option&lt;mpsc::Sender&lt;NodeEventEmittedInfo&gt;&gt;) &#45;&gt; (mpsc::SyncSender&lt;NodeRequest&lt;C&gt;&gt;, Self)</text>
 <text text-anchor="start" x="3691.65" y="-424.3" font-family="Arial" font-size="14.00">&#45; add_transaction(&amp;mut self, transaction: Transaction) &#45;&gt; Result&lt;(), PoolError&gt;</text>
 <text text-anchor="start" x="3691.65" y="-409.3" font-family="Arial" font-size="14.00">&#45; add_block(&amp;mut self, block: &amp;HashedBlock)</text>
-<text text-anchor="start" x="3691.65" y="-394.3" font-family="Arial" font-size="14.00">&#45; compute_block(&amp;mut self, block: &amp;HashedBlock)</text>
+<text text-anchor="start" x="3691.65" y="-394.3" font-family="Arial" font-size="14.00">&#45; compute_block(&amp;mut self, block: &amp;HashedBlock, added_block: &amp;HashedBlock)</text>
 <text text-anchor="start" x="3691.65" y="-379.3" font-family="Arial" font-size="14.00">&#45; get_tip_target(&amp;self) &#45;&gt; U256</text>
 <text text-anchor="start" x="3691.65" y="-364.3" font-family="Arial" font-size="14.00">&#45; get_longest_chain(&amp;self, max: Option&lt;usize&gt;) &#45;&gt; Vec&lt;U256&gt;</text>
 <text text-anchor="start" x="3691.65" y="-349.3" font-family="Arial" font-size="14.00">&#45; receive_message(&amp;mut self)</text>
@@ -977,7 +977,7 @@
 <text text-anchor="start" x="4646.65" y="-3790.3" font-family="Arial" font-size="14.00">&#45; fmt(&amp;self, f: &amp;mut std::fmt::Formatter&lt;&#39;_&gt;) &#45;&gt; std::fmt::Result</text>
 <text text-anchor="start" x="4646.65" y="-3775.3" font-family="Arial" font-size="14.00">&#45; not_enough_work(block: &amp;HashedBlock) &#45;&gt; Self</text>
 <text text-anchor="start" x="4646.65" y="-3760.3" font-family="Arial" font-size="14.00">&#45; included(block: &amp;HashedBlock, height: Option&lt;u128&gt;, siblings: &amp;[U256], work: U256) &#45;&gt; Self</text>
-<text text-anchor="start" x="4646.65" y="-3745.3" font-family="Arial" font-size="14.00">&#45; computed(block: &amp;HashedBlock, height: u128, blocks: &amp;[U256]) &#45;&gt; Self</text>
+<text text-anchor="start" x="4646.65" y="-3745.3" font-family="Arial" font-size="14.00">&#45; computed(added_block: (&amp;HashedBlock, u128), block: (&amp;HashedBlock, u128), results: &amp;[Result&lt;StatementInfo, StatementErr&gt;]) &#45;&gt; Self</text>
 <text text-anchor="start" x="4646.65" y="-3730.3" font-family="Arial" font-size="14.00">&#45; reorg(old: (&amp;HashedBlock, u128), new: (&amp;HashedBlock, u128), common: (&amp;HashedBlock, u128), ticks: (u128, u128), work: U256) &#45;&gt; Self</text>
 <text text-anchor="start" x="4646.65" y="-3715.3" font-family="Arial" font-size="14.00">&#45; already_included(block: &amp;HashedBlock, height: u128) &#45;&gt; Self</text>
 <text text-anchor="start" x="4646.65" y="-3700.3" font-family="Arial" font-size="14.00">&#45; missing_parent(block: &amp;HashedBlock) &#45;&gt; Self</text>

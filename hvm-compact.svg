@@ -272,32 +272,31 @@
 <!-- ndHeap -->
 <g id="node13" class="node"><title>ndHeap</title>
 <g id="a_node13_14"><a xlink:href="https://github.com/Kindelia/HVM/blob/master/src/runtime/base/memory.rs#:~:text=struct%20Heap" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="none" points="942,-491.5 942,-528.5 1226,-528.5 1226,-491.5 942,-491.5"/>
-<polygon fill="none" stroke="black" points="942,-491.5 942,-528.5 1226,-528.5 1226,-491.5 942,-491.5"/>
-<text text-anchor="start" x="1066" y="-507.3" font-family="Arial" font-weight="bold" font-size="14.00">Heap</text>
-<polygon fill="white" stroke="none" points="942,-349.5 942,-491.5 1226,-491.5 1226,-349.5 942,-349.5"/>
-<polygon fill="none" stroke="black" points="942,-349.5 942,-491.5 1226,-491.5 1226,-349.5 942,-349.5"/>
-<text text-anchor="start" x="953" y="-469.3" font-family="Arial" font-size="14.00">+ tids: usize</text>
-<text text-anchor="start" x="953" y="-454.3" font-family="Arial" font-size="14.00">+ node: Box&lt;[AtomicU64]&gt;</text>
-<text text-anchor="start" x="953" y="-439.3" font-family="Arial" font-size="14.00">+ lock: Box&lt;[AtomicU8]&gt;</text>
-<text text-anchor="start" x="953" y="-424.3" font-family="Arial" font-size="14.00">+ lvar: Box&lt;[CachePadded&lt;LocalVars&gt;]&gt;</text>
-<text text-anchor="start" x="953" y="-409.3" font-family="Arial" font-size="14.00">+ vstk: Box&lt;[VisitQueue]&gt;</text>
-<text text-anchor="start" x="953" y="-394.3" font-family="Arial" font-size="14.00">+ aloc: Box&lt;[Box&lt;[AtomicU64]&gt;]&gt;</text>
-<text text-anchor="start" x="953" y="-379.3" font-family="Arial" font-size="14.00">+ vbuf: Box&lt;[Box&lt;[AtomicU64]&gt;]&gt;</text>
-<text text-anchor="start" x="953" y="-364.3" font-family="Arial" font-size="14.00">+ rbag: RedexBag</text>
-<polygon fill="none" stroke="black" points="941,-349 941,-530 1227,-530 1227,-349 941,-349"/>
+<polygon fill="lightblue" stroke="none" points="942,-484.5 942,-521.5 1226,-521.5 1226,-484.5 942,-484.5"/>
+<polygon fill="none" stroke="black" points="942,-484.5 942,-521.5 1226,-521.5 1226,-484.5 942,-484.5"/>
+<text text-anchor="start" x="1066" y="-500.3" font-family="Arial" font-weight="bold" font-size="14.00">Heap</text>
+<polygon fill="white" stroke="none" points="942,-357.5 942,-484.5 1226,-484.5 1226,-357.5 942,-357.5"/>
+<polygon fill="none" stroke="black" points="942,-357.5 942,-484.5 1226,-484.5 1226,-357.5 942,-357.5"/>
+<text text-anchor="start" x="953" y="-462.3" font-family="Arial" font-size="14.00">+ tids: usize</text>
+<text text-anchor="start" x="953" y="-447.3" font-family="Arial" font-size="14.00">+ node: Box&lt;[AtomicU64]&gt;</text>
+<text text-anchor="start" x="953" y="-432.3" font-family="Arial" font-size="14.00">+ lvar: Box&lt;[CachePadded&lt;LocalVars&gt;]&gt;</text>
+<text text-anchor="start" x="953" y="-417.3" font-family="Arial" font-size="14.00">+ vstk: Box&lt;[VisitQueue]&gt;</text>
+<text text-anchor="start" x="953" y="-402.3" font-family="Arial" font-size="14.00">+ aloc: Box&lt;[Box&lt;[AtomicU64]&gt;]&gt;</text>
+<text text-anchor="start" x="953" y="-387.3" font-family="Arial" font-size="14.00">+ vbuf: Box&lt;[Box&lt;[AtomicU64]&gt;]&gt;</text>
+<text text-anchor="start" x="953" y="-372.3" font-family="Arial" font-size="14.00">+ rbag: RedexBag</text>
+<polygon fill="none" stroke="black" points="941,-356.5 941,-522.5 1227,-522.5 1227,-356.5 941,-356.5"/>
 </a>
 </g>
 </g>
 <!-- ndLocalVars&#45;&gt;ndHeap -->
 <g id="edge8" class="edge"><title>ndLocalVars&#45;&gt;ndHeap</title>
-<path fill="none" stroke="black" d="M989.867,-667.143C1005.5,-629.512 1023.96,-585.06 1040.37,-545.536"/>
-<polygon fill="black" stroke="black" points="1040.46,-545.34 1039.06,-538.265 1045.06,-534.258 1046.45,-541.333 1040.46,-545.34"/>
+<path fill="none" stroke="black" d="M989.867,-667.143C1006.53,-627.031 1026.41,-579.167 1043.59,-537.784"/>
+<polygon fill="black" stroke="black" points="1043.65,-537.658 1042.25,-530.582 1048.25,-526.575 1049.64,-533.651 1043.65,-537.658"/>
 </g>
 <!-- ndHeap&#45;&gt;ndRuntime -->
 <g id="edge9" class="edge"><title>ndHeap&#45;&gt;ndRuntime</title>
-<path fill="none" stroke="black" d="M932.767,-348.888C897.368,-327.912 859.955,-305.743 825.547,-285.355"/>
-<polygon fill="black" stroke="black" points="825.294,-285.205 818.093,-285.588 814.97,-279.088 822.171,-278.705 825.294,-285.205"/>
+<path fill="none" stroke="black" d="M938.598,-352.343C901.476,-330.346 861.801,-306.837 825.478,-285.314"/>
+<polygon fill="black" stroke="black" points="825.15,-285.119 817.949,-285.502 814.826,-279.002 822.027,-278.62 825.15,-285.119"/>
 </g>
 <!-- ndRedexBag -->
 <g id="node14" class="node"><title>ndRedexBag</title>
@@ -316,8 +315,8 @@
 </g>
 <!-- ndRedexBag&#45;&gt;ndHeap -->
 <g id="edge10" class="edge"><title>ndRedexBag&#45;&gt;ndHeap</title>
-<path fill="none" stroke="black" d="M1190.61,-697.18C1173.11,-655.046 1148.67,-596.197 1127.6,-545.476"/>
-<polygon fill="black" stroke="black" points="1127.49,-545.201 1121.49,-541.194 1122.88,-534.118 1128.88,-538.125 1127.49,-545.201"/>
+<path fill="none" stroke="black" d="M1190.61,-697.18C1172.25,-652.989 1146.26,-590.414 1124.54,-538.112"/>
+<polygon fill="black" stroke="black" points="1124.44,-537.858 1118.44,-533.851 1119.83,-526.776 1125.83,-530.783 1124.44,-537.858"/>
 </g>
 <!-- ndVisitQueue -->
 <g id="node15" class="node"><title>ndVisitQueue</title>
