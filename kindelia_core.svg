@@ -1984,23 +1984,22 @@
 <!-- ndWsConfig -->
 <g id="node74" class="node"><title>ndWsConfig</title>
 <g id="a_node74_76"><a xlink:href="https://github.com/Kindelia/Kindelia//blob/master/src/config.rs#:~:text=struct%20WsConfig" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="none" points="9,-1623.5 9,-1660.5 155,-1660.5 155,-1623.5 9,-1623.5"/>
-<polygon fill="none" stroke="black" points="9,-1623.5 9,-1660.5 155,-1660.5 155,-1623.5 9,-1623.5"/>
-<text text-anchor="start" x="48.5" y="-1639.3" font-family="Arial" font-weight="bold" font-size="14.00">WsConfig</text>
-<polygon fill="white" stroke="none" points="9,-1571.5 9,-1623.5 155,-1623.5 155,-1571.5 9,-1571.5"/>
-<polygon fill="none" stroke="black" points="9,-1571.5 9,-1623.5 155,-1623.5 155,-1571.5 9,-1571.5"/>
-<text text-anchor="start" x="20" y="-1601.3" font-family="Arial" font-size="14.00">+ port: u16</text>
-<text text-anchor="start" x="20" y="-1586.3" font-family="Arial" font-size="14.00">+ buffer_size: usize</text>
-<polygon fill="white" stroke="none" points="9,-1534.5 9,-1571.5 155,-1571.5 155,-1534.5 9,-1534.5"/>
-<polygon fill="none" stroke="black" points="9,-1534.5 9,-1571.5 155,-1571.5 155,-1534.5 9,-1534.5"/>
-<text text-anchor="start" x="20" y="-1549.3" font-family="Arial" font-size="14.00">&#45; default() &#45;&gt; Self</text>
-<polygon fill="none" stroke="black" points="8,-1533.5 8,-1661.5 156,-1661.5 156,-1533.5 8,-1533.5"/>
+<polygon fill="lightblue" stroke="none" points="9,-1615.5 9,-1652.5 155,-1652.5 155,-1615.5 9,-1615.5"/>
+<polygon fill="none" stroke="black" points="9,-1615.5 9,-1652.5 155,-1652.5 155,-1615.5 9,-1615.5"/>
+<text text-anchor="start" x="48.5" y="-1631.3" font-family="Arial" font-weight="bold" font-size="14.00">WsConfig</text>
+<polygon fill="white" stroke="none" points="9,-1578.5 9,-1615.5 155,-1615.5 155,-1578.5 9,-1578.5"/>
+<polygon fill="none" stroke="black" points="9,-1578.5 9,-1615.5 155,-1615.5 155,-1578.5 9,-1578.5"/>
+<text text-anchor="start" x="20" y="-1593.3" font-family="Arial" font-size="14.00">+ buffer_size: usize</text>
+<polygon fill="white" stroke="none" points="9,-1541.5 9,-1578.5 155,-1578.5 155,-1541.5 9,-1541.5"/>
+<polygon fill="none" stroke="black" points="9,-1541.5 9,-1578.5 155,-1578.5 155,-1541.5 9,-1541.5"/>
+<text text-anchor="start" x="20" y="-1556.3" font-family="Arial" font-size="14.00">&#45; default() &#45;&gt; Self</text>
+<polygon fill="none" stroke="black" points="8,-1541 8,-1654 156,-1654 156,-1541 8,-1541"/>
 </a>
 </g>
 </g>
 <!-- ndWsConfig&#45;&gt;ndNodeConfig -->
 <g id="edge81" class="edge"><title>ndWsConfig&#45;&gt;ndNodeConfig</title>
-<path fill="none" stroke="black" d="M87.539,-1529.07C98.7095,-1401.12 126.881,-1114.62 173,-877 198.6,-745.101 240.767,-594.887 267.692,-504.195"/>
+<path fill="none" stroke="black" d="M86.8638,-1536.85C97.545,-1413.06 125.921,-1119.57 173,-877 198.6,-745.101 240.767,-594.887 267.692,-504.195"/>
 <polygon fill="black" stroke="black" points="267.715,-504.119 265.595,-497.227 271.143,-492.619 273.262,-499.512 267.715,-504.119"/>
 </g>
 <!-- ndEpochError -->

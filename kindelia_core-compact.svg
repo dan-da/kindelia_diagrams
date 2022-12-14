@@ -1571,21 +1571,20 @@
 <!-- ndWsConfig -->
 <g id="node74" class="node"><title>ndWsConfig</title>
 <g id="a_node74_76"><a xlink:href="https://github.com/Kindelia/Kindelia//blob/master/src/config.rs#:~:text=struct%20WsConfig" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="none" points="9,-566.5 9,-603.5 155,-603.5 155,-566.5 9,-566.5"/>
-<polygon fill="none" stroke="black" points="9,-566.5 9,-603.5 155,-603.5 155,-566.5 9,-566.5"/>
-<text text-anchor="start" x="48.5" y="-582.3" font-family="Arial" font-weight="bold" font-size="14.00">WsConfig</text>
-<polygon fill="white" stroke="none" points="9,-514.5 9,-566.5 155,-566.5 155,-514.5 9,-514.5"/>
-<polygon fill="none" stroke="black" points="9,-514.5 9,-566.5 155,-566.5 155,-514.5 9,-514.5"/>
-<text text-anchor="start" x="20" y="-544.3" font-family="Arial" font-size="14.00">+ port: u16</text>
-<text text-anchor="start" x="20" y="-529.3" font-family="Arial" font-size="14.00">+ buffer_size: usize</text>
-<polygon fill="none" stroke="black" points="8,-514 8,-605 156,-605 156,-514 8,-514"/>
+<polygon fill="lightblue" stroke="none" points="9,-559.5 9,-596.5 155,-596.5 155,-559.5 9,-559.5"/>
+<polygon fill="none" stroke="black" points="9,-559.5 9,-596.5 155,-596.5 155,-559.5 9,-559.5"/>
+<text text-anchor="start" x="48.5" y="-575.3" font-family="Arial" font-weight="bold" font-size="14.00">WsConfig</text>
+<polygon fill="white" stroke="none" points="9,-522.5 9,-559.5 155,-559.5 155,-522.5 9,-522.5"/>
+<polygon fill="none" stroke="black" points="9,-522.5 9,-559.5 155,-559.5 155,-522.5 9,-522.5"/>
+<text text-anchor="start" x="20" y="-537.3" font-family="Arial" font-size="14.00">+ buffer_size: usize</text>
+<polygon fill="none" stroke="black" points="8,-521.5 8,-597.5 156,-597.5 156,-521.5 8,-521.5"/>
 </a>
 </g>
 </g>
 <!-- ndWsConfig&#45;&gt;ndNodeConfig -->
 <g id="edge81" class="edge"><title>ndWsConfig&#45;&gt;ndNodeConfig</title>
-<path fill="none" stroke="black" d="M110.019,-509.964C144.691,-449.905 204.246,-346.742 245.969,-274.469"/>
-<polygon fill="black" stroke="black" points="245.99,-274.431 245.526,-267.235 251.99,-264.039 252.454,-271.235 245.99,-274.431"/>
+<path fill="none" stroke="black" d="M105.794,-517.283C139.66,-458.62 202.468,-349.822 245.938,-274.522"/>
+<polygon fill="black" stroke="black" points="245.939,-274.52 245.475,-267.324 251.939,-264.128 252.403,-271.324 245.939,-274.52"/>
 </g>
 <!-- ndEpochError -->
 <g id="node75" class="node"><title>ndEpochError</title>
