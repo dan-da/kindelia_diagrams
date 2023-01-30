@@ -226,11 +226,11 @@
 <text text-anchor="start" x="1165.5" y="-1406.3" font-family="Arial" font-weight="bold" font-size="14.00">Runtime</text>
 <polygon fill="white" stroke="none" points="895,-1293.5 895,-1390.5 1494,-1390.5 1494,-1293.5 895,-1293.5"/>
 <polygon fill="none" stroke="black" points="895,-1293.5 895,-1390.5 1494,-1390.5 1494,-1293.5 895,-1293.5"/>
-<text text-anchor="start" x="906" y="-1368.3" font-family="Arial" font-size="14.00">&#45; heap: Heap</text>
-<text text-anchor="start" x="906" y="-1353.3" font-family="Arial" font-size="14.00">&#45; prog: Program</text>
-<text text-anchor="start" x="906" y="-1338.3" font-family="Arial" font-size="14.00">&#45; book: language::rulebook::RuleBook</text>
-<text text-anchor="start" x="906" y="-1323.3" font-family="Arial" font-size="14.00">&#45; tids: Box&lt;[usize]&gt;</text>
-<text text-anchor="start" x="906" y="-1308.3" font-family="Arial" font-size="14.00">&#45; dbug: bool</text>
+<text text-anchor="start" x="906" y="-1368.3" font-family="Arial" font-size="14.00">+ heap: Heap</text>
+<text text-anchor="start" x="906" y="-1353.3" font-family="Arial" font-size="14.00">+ prog: Program</text>
+<text text-anchor="start" x="906" y="-1338.3" font-family="Arial" font-size="14.00">+ book: language::rulebook::RuleBook</text>
+<text text-anchor="start" x="906" y="-1323.3" font-family="Arial" font-size="14.00">+ tids: Box&lt;[usize]&gt;</text>
+<text text-anchor="start" x="906" y="-1308.3" font-family="Arial" font-size="14.00">+ dbug: bool</text>
 <polygon fill="white" stroke="none" points="895,-176.5 895,-1293.5 1494,-1293.5 1494,-176.5 895,-176.5"/>
 <polygon fill="none" stroke="black" points="895,-176.5 895,-1293.5 1494,-1293.5 1494,-176.5 895,-176.5"/>
 <text text-anchor="start" x="906" y="-1271.3" font-family="Arial" font-size="14.00">&#45; new(size: usize, tids: usize, dbug: bool) &#45;&gt; Runtime</text>

@@ -210,17 +210,17 @@
 <!-- ndRuntime -->
 <g id="node20" class="node"><title>ndRuntime</title>
 <g id="a_node20_11"><a xlink:href="https://github.com/Kindelia/HVM/blob/master/src/runtime/mod.rs#:~:text=struct%20Runtime" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="none" points="565,-237 565,-274 825,-274 825,-237 565,-237"/>
-<polygon fill="none" stroke="black" points="565,-237 565,-274 825,-274 825,-237 565,-237"/>
-<text text-anchor="start" x="666" y="-252.8" font-family="Arial" font-weight="bold" font-size="14.00">Runtime</text>
-<polygon fill="white" stroke="none" points="565,-140 565,-237 825,-237 825,-140 565,-140"/>
-<polygon fill="none" stroke="black" points="565,-140 565,-237 825,-237 825,-140 565,-140"/>
-<text text-anchor="start" x="576" y="-214.8" font-family="Arial" font-size="14.00">&#45; heap: Heap</text>
-<text text-anchor="start" x="576" y="-199.8" font-family="Arial" font-size="14.00">&#45; prog: Program</text>
-<text text-anchor="start" x="576" y="-184.8" font-family="Arial" font-size="14.00">&#45; book: language::rulebook::RuleBook</text>
-<text text-anchor="start" x="576" y="-169.8" font-family="Arial" font-size="14.00">&#45; tids: Box&lt;[usize]&gt;</text>
-<text text-anchor="start" x="576" y="-154.8" font-family="Arial" font-size="14.00">&#45; dbug: bool</text>
-<polygon fill="none" stroke="black" points="564,-139 564,-275 826,-275 826,-139 564,-139"/>
+<polygon fill="lightblue" stroke="none" points="564,-237 564,-274 827,-274 827,-237 564,-237"/>
+<polygon fill="none" stroke="black" points="564,-237 564,-274 827,-274 827,-237 564,-237"/>
+<text text-anchor="start" x="666.5" y="-252.8" font-family="Arial" font-weight="bold" font-size="14.00">Runtime</text>
+<polygon fill="white" stroke="none" points="564,-140 564,-237 827,-237 827,-140 564,-140"/>
+<polygon fill="none" stroke="black" points="564,-140 564,-237 827,-237 827,-140 564,-140"/>
+<text text-anchor="start" x="575" y="-214.8" font-family="Arial" font-size="14.00">+ heap: Heap</text>
+<text text-anchor="start" x="575" y="-199.8" font-family="Arial" font-size="14.00">+ prog: Program</text>
+<text text-anchor="start" x="575" y="-184.8" font-family="Arial" font-size="14.00">+ book: language::rulebook::RuleBook</text>
+<text text-anchor="start" x="575" y="-169.8" font-family="Arial" font-size="14.00">+ tids: Box&lt;[usize]&gt;</text>
+<text text-anchor="start" x="575" y="-154.8" font-family="Arial" font-size="14.00">+ dbug: bool</text>
+<polygon fill="none" stroke="black" points="562.5,-139 562.5,-275 827.5,-275 827.5,-139 562.5,-139"/>
 </a>
 </g>
 </g>
